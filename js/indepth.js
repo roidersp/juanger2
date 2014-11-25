@@ -136,6 +136,7 @@ $(".iframe").ready(function(){
 
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
+	var mobile=detect_mobile();
 	if(!mobile){
 		indepth_skrllr();
 	}
