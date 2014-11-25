@@ -1,0 +1,948 @@
+/****** diseño mobile first *****/
+
+.indepth_pages{
+	width: 100%;
+	background: #141414;
+}
+
+.indepth_page{
+		width: 100%;
+		position: relative;
+		padding: 40px 0;
+}
+
+.indepth_page_body{
+		margin: 0 auto;
+}
+
+.indepth_pages img{
+	height: auto;
+	width: 80%;
+	margin: auto;
+}
+
+#indepth_cover{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 100%;
+}
+
+
+#indepth_cover .indepth_parallax_back{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/logo_hd.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+#indepth_intro{
+	font-family: 'Quantico', sans-serif;
+	color: #D2D2D2;
+	line-height: 24px;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+#indepth_intro .indepth_text{
+	width: 90%;
+	margin: auto;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background-image: url(../images/jugadores-silueta.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+#indepth_intro{
+	padding-top: 0px;
+	
+}
+
+#indepth_distritos{
+	background-color: #192734;
+}
+
+#indepth_distritos .indepth_title{
+	font-size: larger;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Black Ops One';
+	text-transform: uppercase;
+}
+
+.indepth_bracket{
+	width: 308px;
+	margin: 30px auto;
+	height: 270px;
+	position: relative;
+	
+}
+
+.indepth_bracket_teams{
+	float: left;
+	width: 51px;
+	height: 100%;
+	position: relative;
+	display: table;
+}
+
+.indepth_bracket_cont{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.indepth_bracket_cont img{
+	width: 100%;
+}
+
+.indepth_bracket_cont.cuartos{
+	width: 100%;
+	display: inline-block;	
+	height: 100%;
+}
+
+.indepth_bracket_final{
+	width: 100%;
+	height: 50%;
+	position: relative;
+}
+
+
+.indepth_bracket_semis{
+	width: 100%;
+	height: 205px;
+	position: relative;
+}
+
+.indepth_bracket_cuartos{
+	width: 100%;
+	height: 130px;
+	position: absolute;
+}
+
+.indepth_bracket_img{
+	position: absolute;
+}
+
+.indepth_bracket_img.up{
+	top:0px;
+}
+
+.indepth_bracket_img.down{
+	bottom:0px;
+}
+
+.indepth_bracket_cuartos.down{
+	bottom: 0px;
+}
+
+.indepth_break_marcador{
+	width: 52px;
+	height: 16px;
+	border-radius: 2px;
+	background-color: #09455C;
+	box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.6);
+	color: white;
+	font-family: 'Quantico', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	font-weight: 400;
+	display: none;
+}
+
+.indepth_break_marcador.cuartos{
+	position: absolute;
+	top:50%;
+	margin-top: -8px;
+}
+
+.indepth_bracket_cuartos .indepth_bracket_team{
+	
+}
+
+.indepth_bracket_conect{
+	float: left;
+	width: 13px;
+	height: 100%;
+}
+
+.indepth_bracket_conect.semis{
+	display: table;
+}
+
+.indepth_bracket_conect .cont{
+	display: table-cell;
+	vertical-align: middle;
+	height: 205px;
+}
+
+svg{
+	display: block;
+	font-size: 1px;
+}
+
+svg line{
+	stroke-width:1;
+}
+
+.indepth_con_1{
+	stroke: rgb(74, 73, 74);
+	stroke: white;
+}
+
+.indepth_con_2{
+	stroke: #1c3848;
+}
+
+.indepth_distritos{
+	background-color: #211625;
+	color: white;
+}
+
+.indepth_distrito_logo{
+	width: 100px;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.indepth_distrito_logo img{
+	width: 100%
+}
+
+.indepth_distrito_title{
+	color: white;
+	font-size: 15px;
+	padding: 20px 15px;
+	font-family: 'Quantico', sans-serif;
+	line-height: 19px;
+	text-transform: uppercase;
+	background-color: rgba(60, 60, 60, 0.31);
+}
+
+.indepth_distritos hr{
+	width: 100%;
+	background-color: white;
+	margin: auto;
+	padding: 0px;
+	
+}
+
+.indepth_distritos .indepth_hr2{
+	background-color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.indepth_distrito_estrellas{
+	font-weight: 400;
+	font-family: 'Quantico', sans-serif;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.indepth_bold{
+	font-weight: 700;
+}
+
+.indepth_estrellas{
+	width: auto;
+	height: 23px;
+	margin-top: 5px;
+}
+
+.indepth_estrella{
+	width: 23px;
+	height: 100%;
+	background-image: url(../images/estrella_hunger.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	float: left;
+	margin-right: 3px;
+}
+
+.indepth_data_left{
+	width: 170px;
+	height: 110px;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	text-transform: uppercase;
+	float: left;
+	margin-left: 15px;
+}
+
+.indepth_data_r{
+	float: left;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.indepth_distrito_data{
+	font-family: 'Quantico', sans-serif;
+	font-weight: 700;
+}
+
+.indepth_data_title{
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.indepth_data-ofe{
+	float: left;
+}
+
+.indepth_data-def{
+	text-align: center;
+	float: right;
+	margin-right: 10px;
+}
+
+.indepth_distrito_data span{
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.indepth_distrito_data .number{
+	font-size: 49px;
+	line-height: 50px;
+	font-weight: 700;
+}
+
+.indepth_data_porcentaje{
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: -3px;
+}
+
+.indepth_tributo{
+	margin: 20px auto;
+}
+
+.indepth_tributo_title{
+	font-family: 'Quantico', sans-serif;
+	font-size: 15px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	
+}
+
+.indepth_tributo_cont{
+	width: 311px;
+	height: 464px;
+	margin: auto;
+	margin-top: -15px;
+	position: relative;
+}
+
+.indepth_tributo_container{
+	position: relative;
+}
+
+.player_picture{
+	position: absolute;
+	width: 200px;
+	left: 54px;
+}
+
+.player_picture.dos{
+	left: 60px;
+	top: 209px;
+}
+
+.tributos{
+	width: 98px;
+	position: absolute;
+	top:0px;
+}
+
+.tributos.tipo{
+	top:102px;
+	left: 4px;
+	width: 98px;
+	height: 98px;
+	
+}
+
+.tributos.edad{
+	top: 152px;
+	left: 55px;
+	width: 98px;
+	height: 98px;
+	background-image: url(../images/ANHOS_CUADRO.png);
+	background-size: 100%;
+}
+
+.tipos{
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+}
+
+.tipos.velocidad{
+	background-image: url(../images/VELOCIDAD.png);
+}
+
+.tipos.olfato{
+	background-image: url(../images/OLFATO_GOLEADOR.png);
+}
+
+.tipos.derecha{
+	background-image: url(../images/DERECHA_GOLEADORA.png);
+}
+
+.tipos.fuerza{
+	background-image: url(../images/FUERZA.png);
+}
+
+.tipos.definidor{
+	background-image: url(../images/DEFINIDOR.png);
+}
+
+.tipos.liderazgo{
+	background-image: url(../images/LIDERAZGO.png);
+}
+
+.tipos.desequilibrio{
+	background-image: url(../images/DESEQUILIBRIO.png);
+}
+
+.tipos.desborde{
+	background-image: url(../images/DESBORDE.png);
+}
+
+.tipos.desequilibrio{
+	background-image: url(../images/DESEQUILIBRIO.png)
+}
+
+.tipos.distribucion{
+	background-image: url(../images/DISTRIBUCION_JUEGO.png);
+}
+
+.tipos.letal{
+	background-image: url(../images/LETAL_EN_EL_AREA.png);
+}
+
+.tipos.reflejos{
+	background-image: url(../images/REFLEJOS.png);
+}
+
+.tributos.tipo.dos{
+	top:310px;
+	left: 212px
+}
+
+.tributos.edad.dos{
+	top: 362px;
+	left: 162px;
+}
+
+.tributos_edad{
+	color: white;
+	font-family: 'Quantico', sans-serif;
+	font-size: 29px;
+	text-align: center;
+	margin-top: 18px;
+	font-weight: 400;
+	
+}
+
+.tributo_data{
+	font-family: 'Quantico', sans-serif;
+	line-height: 15px;
+	position: absolute;
+	left:196px;
+	top: 162px;
+	text-transform: uppercase;
+}
+
+.tributo_data.dos{
+	top:383px;
+	left: 60px;
+}
+
+.tributo_name{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.tributo_tipo{
+	font-size: 15px;
+}
+
+.tributo_tipo{
+	font-size: 15px;
+}
+
+#indepth_footer{
+	background-color: #F8F8F8;
+	border-top: 1px solid #8A8A8A;
+	border-bottom: 1px solid #8A8A8A;
+	padding: 15px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#indepth_footer .indepth_text{
+	font-size:17px;
+	color: #8A8A8A;
+	text-align:center;
+}
+
+#indepth_footer .indepth_page_body{
+	position: relative;
+}
+
+#indepth_footer .Copyright{
+		float: left;
+		text-align: center;
+		width: 100%;
+}
+
+@media screen and (min-height: 320px) and (min-width:415px) {
+	#indepth_cover{
+		padding: 0px;
+		display: table;
+	}
+	
+	#indepth_cover img{
+		height: 240px;
+		width:  auto;
+
+	}
+	
+	#indepth_cover .indepth_page_body{
+		height: 100%;
+		height: 240px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+	background-size: auto 100%;
+}
+}
+
+@media screen and (min-height: 414px) and (min-width:736px){
+	#indepth_cover img{
+		height: 360px;
+	}
+	
+	#indepth_cover .indepth_page_body{
+		height: 360px;
+	}
+}
+
+@media screen and (min-height: 640px) and (max-width:360px){
+	#indepth_cover .indepth_parallax_back{
+	background-size: auto 100%;
+}
+}
+
+@media screen and (min-height: 604px) and (min-width:966px){
+	#indepth_cover{
+		padding: 0px;
+		display: table;
+	}
+	
+	#indepth_cover img{
+		height: 600px;
+		width:  auto;
+
+	}
+	
+	#indepth_cover .indepth_page_body{
+		height: 100%;
+		height: 600px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+
+@media screen and (min-width: 600px) and (min-height:415px) {
+	#indepth_cover img{
+		width:  80%;
+		height: auto;
+
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+	background-size: 100% auto;
+}
+}
+
+@media screen and (min-width: 640px) {
+	#indepth_intro{
+		font-size: 26px;
+		line-height: 36px;
+	}
+	
+	#indepth_distritos .indepth_title{
+		font-size: 46px;
+	}
+	
+	.indepth_bracket{
+		width: 616px;
+		margin: 60px auto;
+		height: 540px;	
+	}
+
+	.indepth_bracket_teams{
+		width: 102px;
+	}
+
+	.indepth_bracket_semis{
+		height: 410px;
+	}
+	
+	.indepth_bracket_cuartos{
+		height: 260px;
+	}
+
+	.indepth_break_marcador{
+		width: 104px;
+		height: 38px;
+		border-radius: 4px;
+		font-size: 28px;
+		line-height: 38px;
+		text-align: center;
+	}
+	
+	.indepth_break_marcador.cuartos{
+		margin-top: -16px;
+	}
+	
+	
+	.indepth_bracket_conect{
+		width: 26px;
+	}
+
+	.indepth_bracket_conect .cont{
+		height: 410px;
+	}
+	
+	svg{
+		display: block;
+		font-size: 2px;
+	}
+	
+	svg line{
+		stroke-width:2;
+	}
+	
+	
+	
+	.indepth_distrito_info{
+		width: 640px;
+		margin:auto;
+	}
+	
+	.indepth_distrito_logo{
+		width: 200px;
+		margin-bottom: 50px;
+	}
+	
+	.indepth_distrito_title{
+		font-size: 30px;
+		padding: 20px 40px;
+		font-family: 'Quantico', sans-serif;
+		line-height: 36px;
+		text-transform: uppercase;
+		background-color: rgba(60, 60, 60, 0.31);
+	}
+	
+	.indepth_distrito_estrellas{
+		padding: 20px 30px;
+		font-size: 30px;
+	}
+	
+	.indepth_estrellas{
+		height: 46px;
+		margin-top: 10px;
+	}
+		
+	.indepth_estrella{
+		width: 46px;
+		margin-right: 6px;
+		background-repeat: no-repeat;
+	}
+	
+	.indepth_data_left{
+		width: 340px;
+		height: 220px;
+		margin-left: 30px;
+	}
+	
+	.indepth_data_r{
+		margin-left: 20px;
+	}
+
+	
+	.indepth_data_title{
+		font-size: 30px;
+		padding-top: 20px;
+	}
+
+	
+	.indepth_data-def{
+		margin-right: 20px;
+	}
+	
+	.indepth_distrito_data span{
+		font-size: 26px;
+	}
+	
+	.indepth_distrito_data .number{
+		font-size: 100px;
+		line-height: 100px;
+	}
+	
+	.indepth_data_porcentaje{
+		font-size: 100px;
+		line-height: 100px;
+		letter-spacing: -6px;
+	}
+	
+	.indepth_tributo{
+		margin: 40px auto;
+	}
+	
+	.indepth_tributo_title{
+		font-family: 'Quantico', sans-serif;
+		font-size: 30px;
+		margin-left: 40px;
+		
+	}
+	
+	.indepth_tributo_cont{
+		width: 622px;
+		height: 928px;
+		margin: auto;
+		margin-top: -30px;
+	}
+	
+	.player_picture{
+		width: 400px;
+		left: 108px;
+	}
+	
+	.player_picture.dos{
+		left: 120px;
+		top: 416px;
+	}
+	
+	.tributos{
+		width: 200px;
+	}
+	
+	.tributos.tipo{
+		top:204px;
+		left: 8px;
+		width: 196px;
+		height: 196px;
+	}
+	
+	.tributos.edad{
+		top: 306px;
+		left: 110px;
+		width: 196px;
+		height: 196px;
+		background-size: 100%;
+	}
+	
+	.tributos.tipo.dos{
+		top:620px;
+		left: 424px
+	}
+	
+	.tributos.edad.dos{
+		top: 724px;
+		left: 324px;
+	}
+	
+	.tributos_edad{
+		font-size: 60px;
+		margin-top: 36px;	
+	}
+	
+	.tributo_data{
+		line-height: 30px;
+		left:396px;
+		top: 324px;
+		text-transform: uppercase;
+	}
+	
+	.tributo_data.dos{
+		top:766px;
+		left: 120px;
+	}
+	
+	.tributo_name{
+		font-size: 36px;
+	}
+	
+	.tributo_tipo{
+		font-size: 30px;
+	}
+	
+	#indepth_cover .indepth_page_body{
+		height: 100%;
+		max-height: 800px;
+	}
+	
+	#indepth_cover img{
+		height: 95%;
+		width: auto;
+	}
+
+	
+
+}
+
+@media screen and (min-width: 810px) {
+	
+	#indepth_cover .indepth_parallax_back{
+		width: 100%;
+		height: 100%;
+		background-image: url(../images/logo_hd.png);
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	
+	.indepth_page_body{
+		margin: 0 auto;
+		width: 810px;
+	}
+	
+	#indepth_intro .indepth_text, .indepth_text{
+		width: 100%;
+	}
+	
+	
+	
+	
+	
+	
+}
+
+
+@media screen and (min-width: 970px) {
+	.indepth_tributo{
+		
+		
+	}
+	
+	#indepth_intro .indepth_text {
+		
+			padding-top: 130px;
+		
+		}
+	
+	.indepth_tributo_container{
+		width: 50%;
+		height:500px;
+		float: left;
+	}
+	
+	.indepth_tributo_container.dos{
+		top: 0px;
+		right: 0px;
+		
+	}
+	
+	.indepth_tributo_cont{
+		min-width: 980px;
+		max-width: 1024px;
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-box;
+		display: box;
+		display: flex;
+	}
+	
+	.player_picture{
+		width: 360px;
+		left: 90px;
+	}
+	
+	.player_picture.dos{
+		left: inherit;
+		top: 0px;
+		right: 90px;
+	}
+	
+	.tributos{
+		width: 176px;
+	}
+	
+	.tributos.tipo{
+		top:184px;
+		left: 0px;
+		width: 176px;
+		height: 176px;
+	}
+	
+	.tributos.edad{
+		top: 276px;
+		left: 92px;
+		width: 176px;
+		height: 176px;
+		background-size: 100%;
+	}
+	
+	.tributos.tipo.dos{
+		top:184px;
+		left: inherit;
+		right: 0px;
+	}
+	
+	.tributos.edad.dos{
+		top: 276px;
+		left: initial;
+right: 92px;
+	}
+	
+	.tributos_edad{
+		font-size: 60px;
+		margin-top: 36px;	
+	}
+	
+	.tributo_data{
+		line-height: 30px;
+		left:316px;
+		top: 324px;
+		text-transform: uppercase;
+	}
+	
+	.tributo_data.dos{
+		top: 324px;
+		left: inherit;
+		right: 296px;
+	}
+	
+	.tributo_name{
+		font-size: 36px;
+	}
+	
+	.tributo_tipo{
+		font-size: 30px;
+	}
+	
+	.indepth_tributo_cont{
+		height: auto;
+	}
+}
+
+
+
+
