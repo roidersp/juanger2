@@ -139,6 +139,7 @@ $(document).ready(function(){
 	var mobile=detect_mobile();
 	if(!mobile){
 		indepth_skrllr();
+		$('#indepth_cover .indepth_parallax_back').attr("data-0","height:"+(ventana_alto-60)+";");
 	}
 	indepth_preloadImgs();
 	
