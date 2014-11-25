@@ -136,7 +136,9 @@ $(".iframe").ready(function(){
 
 $(document).ready(function(){
 	indepth_sizeAdjust(true);
-	indepth_skrllr();
+	if(!mobile){
+		indepth_skrllr();
+	}
 	indepth_preloadImgs();
 	
 	if(navigator.platform == 'iPad' || navigator.platform == 'iPhone' || navigator.platform == 'iPod' || navigator.platform == 'Android')
