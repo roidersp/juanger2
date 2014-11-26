@@ -135,12 +135,10 @@ $(".iframe").ready(function(){
 })
 
 $(document).ready(function(){
-	var ventana_alto = $(window).height();
 	indepth_sizeAdjust(true);
 	var mobile=detect_mobile();
 	if(!mobile){
 		indepth_skrllr();
-		$('#indepth_cover ').attr("data-50","height:"+(ventana_alto-60)+"px;");
 	}
 	indepth_preloadImgs();
 	
